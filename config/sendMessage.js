@@ -31,12 +31,12 @@ function getHeaderFooter() {
         const settings = getSettingsWithCache();
         
         return {
-            header: settings.company_header || 'ALIJAYA BOT MANAGEMENT ISP',
+            header: settings.company_header || 'NANCY.NET BOT MANAGEMENT ISP',
             footer: settings.footer_info || 'Internet Tanpa Batas'
         };
     } catch (error) {
         return {
-            header: 'ALIJAYA BOT MANAGEMENT ISP',
+            header: 'NANCY.NET BOT MANAGEMENT ISP',
             footer: 'Internet Tanpa Batas'
         };
     }
