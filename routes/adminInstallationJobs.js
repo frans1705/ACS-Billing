@@ -129,13 +129,13 @@ router.get('/', adminAuth, async (req, res) => {
             selectedTechnician: technician,
             settings: {
                 logo_filename: getSetting('logo_filename', 'logo.png'),
-                company_header: getSetting('company_header', 'GEMBOK')
+                company_header: getSetting('company_header', 'NANCY.NET')
             },
             versionInfo: {
                 version: '1.0.0',
                 buildNumber: '001',
                 versionDate: '2024-01-01',
-                companyHeader: getSetting('company_header', 'GEMBOK')
+                companyHeader: getSetting('company_header', 'NANCY.NET')
             },
             versionBadge: {
                 class: 'badge-primary',
@@ -172,13 +172,13 @@ router.get('/create', adminAuth, async (req, res) => {
             job: null, // null for create mode
             settings: {
                 logo_filename: getSetting('logo_filename', 'logo.png'),
-                company_header: getSetting('company_header', 'GEMBOK')
+                company_header: getSetting('company_header', 'NANCY.NET')
             },
             versionInfo: {
                 version: '1.0.0',
                 buildNumber: '001',
                 versionDate: '2024-01-01',
-                companyHeader: getSetting('company_header', 'GEMBOK')
+                companyHeader: getSetting('company_header', 'NANCY.NET')
             },
             versionBadge: {
                 class: 'badge-primary',
@@ -404,13 +404,13 @@ router.get('/edit/:id', adminAuth, async (req, res) => {
             job, // pass job data for edit mode
             settings: {
                 logo_filename: getSetting('logo_filename', 'logo.png'),
-                company_header: getSetting('company_header', 'GEMBOK')
+                company_header: getSetting('company_header', 'NANCY.NET')
             },
             versionInfo: {
                 version: '1.0.0',
                 buildNumber: '001',
                 versionDate: '2024-01-01',
-                companyHeader: getSetting('company_header', 'GEMBOK')
+                companyHeader: getSetting('company_header', 'NANCY.NET')
             },
             versionBadge: {
                 class: 'badge-primary',
@@ -803,13 +803,13 @@ router.get('/view/:id', adminAuth, async (req, res) => {
                 message: 'Jadwal instalasi yang dicari tidak ditemukan',
                 settings: {
                     logo_filename: getSetting('logo_filename', 'logo.png'),
-                    company_header: getSetting('company_header', 'GEMBOK')
+                    company_header: getSetting('company_header', 'NANCY.NET')
                 },
                 versionInfo: {
                     version: '1.0.0',
                     buildNumber: '001',
                     versionDate: '2024-01-01',
-                    companyHeader: getSetting('company_header', 'GEMBOK')
+                    companyHeader: getSetting('company_header', 'NANCY.NET')
                 },
                 versionBadge: {
                     class: 'badge-primary',
@@ -845,13 +845,13 @@ router.get('/view/:id', adminAuth, async (req, res) => {
             technicians,
             settings: {
                 logo_filename: getSetting('logo_filename', 'logo.png'),
-                company_header: getSetting('company_header', 'GEMBOK')
+                company_header: getSetting('company_header', 'NANCY.NET')
             },
             versionInfo: {
                 version: '1.0.0',
                 buildNumber: '001',
                 versionDate: '2024-01-01',
-                companyHeader: getSetting('company_header', 'GEMBOK')
+                companyHeader: getSetting('company_header', 'NANCY.NET')
             },
             versionBadge: {
                 class: 'badge-primary',
@@ -866,13 +866,13 @@ router.get('/view/:id', adminAuth, async (req, res) => {
             message: 'Terjadi kesalahan saat memuat detail job instalasi',
             settings: {
                 logo_filename: getSetting('logo_filename', 'logo.png'),
-                company_header: getSetting('company_header', 'GEMBOK')
+                company_header: getSetting('company_header', 'NANCY.NET')
             },
             versionInfo: {
                 version: '1.0.0',
                 buildNumber: '001',
                 versionDate: '2024-01-01',
-                companyHeader: getSetting('company_header', 'GEMBOK')
+                companyHeader: getSetting('company_header', 'NANCY.NET')
             },
             versionBadge: {
                 class: 'badge-primary',
@@ -1117,5 +1117,6 @@ router.get('/api/customer/:id', adminAuth, async (req, res) => {
         });
     }
 });
+
 
 module.exports = router;
