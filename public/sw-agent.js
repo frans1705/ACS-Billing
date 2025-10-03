@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gembok-agent-v1';
+const CACHE_NAME = 'nancy-agent-v1';
 const urlsToCache = [
   '/agent/dashboard',
   '/agent/vouchers',
@@ -222,7 +222,7 @@ self.addEventListener('push', function(event) {
   };
   
   event.waitUntil(
-    self.registration.showNotification('GEMBOK-BILL Agent', options)
+    self.registration.showNotification('ACS-Billing Agent', options)
   );
 });
 
@@ -245,3 +245,4 @@ self.addEventListener('notificationclick', function(event) {
     );
   }
 });
+
