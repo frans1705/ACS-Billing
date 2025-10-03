@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gembok-collector-v1';
+const CACHE_NAME = 'nancy-collector-v1';
 const urlsToCache = [
   '/collector/dashboard',
   '/collector/payment',
@@ -189,7 +189,7 @@ self.addEventListener('push', function(event) {
   };
   
   event.waitUntil(
-    self.registration.showNotification('GEMBOK-BILL Collector', options)
+    self.registration.showNotification('ACS-Billing Collector', options)
   );
 });
 
@@ -212,3 +212,4 @@ self.addEventListener('notificationclick', function(event) {
     );
   }
 });
+
