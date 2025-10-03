@@ -137,7 +137,7 @@ Alamat: ${address}`;
                 } catch (e) { logger.error('WA admin notif error:', e); }
             }
             // WhatsApp ke agent
-            const portalUrl = getSetting('portal_url', 'https://gembok-bill.yourdomain.com/agent/login');
+            const portalUrl = getSetting('portal_url', 'https://acs-billing.yourdomain.com/agent/login');
             const adminContact = getSetting('contact_whatsapp', getSetting('contact_phone', '-'));
             const agentWAmsg = `*PENDAFTARAN BERHASIL*
 
