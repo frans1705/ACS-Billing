@@ -619,8 +619,8 @@ async function updateSSIDOptimized(phone, newSSID) {
 }
 // Helper: Add admin number and company info to customer data
 function addAdminNumber(customerData) {
-  const adminNumber = getSetting('admins.0', '6281947215703');
-  const companyHeader = getSetting('company_header', 'ALIJAYA DIGITAL NETWORK');
+  const adminNumber = getSetting('admins.0', '6281290717151');
+  const companyHeader = getSetting('company_header', 'NANCY GLOBAL SOLUSI');
   
   // Convert to display format (remove country code if present)
   const displayNumber = adminNumber.startsWith('62') ? '0' + adminNumber.slice(2) : adminNumber;
