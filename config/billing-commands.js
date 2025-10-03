@@ -164,7 +164,7 @@ class BillingCommands {
     }
 
     formatWithHeaderFooter(message) {
-        const header = getSetting('company_header', 'ALIJAYA BOT MANAGEMENT ISP');
+        const header = getSetting('company_header', 'NANCY.NET BOT MANAGEMENT ISP');
         const footer = getSetting('footer_info', 'Internet Tanpa Batas');
         
         return `🏢 *${header}*\n\n${message}\n\n${footer}`;
@@ -1519,3 +1519,4 @@ class BillingCommands {
 }
 
 module.exports = new BillingCommands();
+
