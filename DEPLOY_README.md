@@ -4,8 +4,8 @@
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/alijayanet/gembok-bill
-cd gembok-bill
+git clone https://github.com/frans1705/ACS-Billing
+cd ACS-Billing
 ```
 
 ### 2. Install Dependencies
@@ -38,7 +38,7 @@ npm run dev
 npm start
 
 # Atau dengan PM2
-pm2 start app.js --name gembok-bill
+pm2 start app.js --name ACS-Billing
 pm2 save
 pm2 startup
 ```
@@ -112,7 +112,7 @@ npm install
 ```bash
 # Hapus session dan restart
 rm -rf whatsapp-session/
-pm2 restart gembok-bill
+pm2 restart ACS-Billing
 ```
 
 ## 📞 Support
