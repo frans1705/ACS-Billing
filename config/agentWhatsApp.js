@@ -30,8 +30,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             // Message untuk agent
             const agentMessage = `${companyHeader}🎫 **VOUCHER BERHASIL DIJUAL**
@@ -89,8 +89,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             // Create agent info text
             let agentInfoText = '';
@@ -137,8 +137,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             // Message untuk agent
             const agentMessage = `${companyHeader}💰 **PEMBAYARAN BERHASIL DIPROSES**
@@ -193,8 +193,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             const message = `${companyHeader}💰 **SALDO TELAH DIUPDATE**
 
@@ -228,8 +228,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             const message = `${companyHeader}✅ **REQUEST SALDO DISETUJUI**
 
@@ -265,8 +265,8 @@ class AgentWhatsAppManager {
             }
 
             const settings = getSettingsWithCache();
-            const companyHeader = settings.company_header || '📱 ALIJAYA DIGITAL NETWORK 📱\n\n';
-            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Alijaya Digital Network');
+            const companyHeader = settings.company_header || '📱 NANCY GLOBAL SOLUSI 📱\n\n';
+            const footerInfo = '\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n' + (settings.footer_info || 'Powered by Nancy Global Solusi');
 
             const message = `${companyHeader}❌ **REQUEST SALDO DITOLAK**
 
@@ -354,3 +354,4 @@ ${requestData.rejectReason}
 }
 
 module.exports = AgentWhatsAppManager;
+
