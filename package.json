@@ -1,5 +1,5 @@
 {
-  "name": "gembok-bill",
+  "name": "ACS-Billing",
   "version": "2.1.0",
   "description": "Sistem Manajemen ISP Terintegrasi dengan WhatsApp Gateway untuk GenieACS, Mikrotik PPPoE, dan Hotspot Management",
   "main": "app.js",
