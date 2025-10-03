@@ -95,14 +95,15 @@ cd ACS-Billing
 npm install -g npm@11.6.1
 ```bash
 npm i node-routeros-v2
+
+# Script postinstall akan otomatis menjalankan:
+# - npm rebuild (rebuild native modules)
+# - npm run check-deps (cek dependencies)
 ```
 ```bash
 #Edit const { RouterOSAPI } = require('node-routeros'); >> const { RouterOSAPI } = require('node-routeros-v2');
 nano /home/acs/gembok-bill/config/mikrotik.js
 ```
-# Script postinstall akan otomatis menjalankan:
-# - npm rebuild (rebuild native modules)
-# - npm run check-deps (cek dependencies)
 Jika masih ada masalah, coba manual rebuild:
 ```bash
 npm rebuild sqlite3
