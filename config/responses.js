@@ -4,9 +4,9 @@ const { getSetting } = require('./settingsManager');
 
 // Format pesan dengan header dan footer
 function formatWithHeaderFooter(message) {
-    const COMPANY_HEADER = getSetting('company_header', "📱 ALIJAYA DIGITAL NETWORK 📱\n\n");
+    const COMPANY_HEADER = getSetting('company_header', "📱 NANCY GLOBAL SOLUSI 📱\n\n");
     const FOOTER_SEPARATOR = "\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n";
-    const FOOTER_INFO = FOOTER_SEPARATOR + getSetting('footer_info', "Powered by Alijaya Digital Network");
+    const FOOTER_INFO = FOOTER_SEPARATOR + getSetting('footer_info', "Powered by Nancy Global Solusi");
     
     return `${COMPANY_HEADER}${message}${FOOTER_INFO}`;
 }
