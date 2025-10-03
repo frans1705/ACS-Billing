@@ -5,8 +5,8 @@ const path = require('path');
 const dbPath = path.join(__dirname, '../data/billing.db');
 
 // Default coordinates untuk Jakarta
-const DEFAULT_LATITUDE = -6.2088;
-const DEFAULT_LONGITUDE = 106.8456;
+const DEFAULT_LATITUDE = -6.43133;
+const DEFAULT_LONGITUDE = 106.96766;
 
 async function addCoordinatesToCustomers() {
     return new Promise((resolve, reject) => {
