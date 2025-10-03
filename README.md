@@ -80,18 +80,29 @@
 ```bash
 # Install git jika belum ada
 apt install git curl -y
+```
 
+```bash
 # Clone repository
-git clone https://github.com/alijayanet/gembok-bill
-cd gembok-bill
+git clone https://github.com/frans1705/ACS-Billing
+cd ACS-Billing
 ```
 
 ### 2. Install Dependencies
 
 ```bash
 # Install semua dependencies
-npm install
+npm install -g npm@11.6.1
+```bash
+npm i node-routeros-v2
 ```
+```bash
+#Edit const { RouterOSAPI } = require('node-routeros'); >> const { RouterOSAPI } = require('node-routeros-v2');
+nano /home/acs/gembok-bill/config/mikrotik.js
+```
+# Script postinstall akan otomatis menjalankan:
+# - npm rebuild (rebuild native modules)
+# - npm run check-deps (cek dependencies)
 Jika masih ada masalah, coba manual rebuild:
 ```bash
 npm rebuild sqlite3
