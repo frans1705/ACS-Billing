@@ -72,12 +72,12 @@ const getAppSettings = (req, res, next) => {
         footerInfo: getSetting('footer_info', ''),
         logoFilename: getSetting('logo_filename', 'logo.png'),
         payment_bank_name: getSetting('payment_bank_name', 'BCA'),
-        payment_account_number: getSetting('payment_account_number', '1234567890'),
-        payment_account_holder: getSetting('payment_account_holder', 'ALIJAYA DIGITAL NETWORK'),
-        payment_cash_address: getSetting('payment_cash_address', 'Jl. Contoh No. 123'),
+        payment_account_number: getSetting('payment_account_number', '4060623347'),
+        payment_account_holder: getSetting('payment_account_holder', 'FRANS WELLEM TUMILAAR'),
+        payment_cash_address: getSetting('payment_cash_address', 'Kp. Babakan RT.002 RW.005 Desa Dayeh, Cileungsi, Kab. Bogor, Jawa Barat'),
         payment_cash_hours: getSetting('payment_cash_hours', '08:00 - 17:00'),
-        contact_whatsapp: getSetting('contact_whatsapp', '081947215703'),
-        contact_phone: getSetting('contact_phone', '0812-3456-7890')
+        contact_whatsapp: getSetting('contact_whatsapp', '081290717151'),
+        contact_phone: getSetting('contact_phone', '0812-90-717151')
     };
     next();
 };
@@ -607,5 +607,6 @@ router.post('/create-payment', async (req, res) => {
         });
     }
 });
+
 
 module.exports = router; 
