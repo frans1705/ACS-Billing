@@ -303,7 +303,7 @@ router.get('/customers', technicianAuth, async (req, res) => {
             technician: req.technician,
             // View ini mengakses settings.company_header
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi'),
                 logo_filename: getSetting('logo_filename', 'logo.png')
             },
@@ -1026,7 +1026,7 @@ router.get('/mapping', technicianAuth, async (req, res) => {
         res.render('technician/mapping', {
             title: 'Network Mapping - Portal Teknisi',
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi'),
                 logo_filename: getSetting('logo_filename', 'logo.png')
             },
@@ -1042,7 +1042,7 @@ router.get('/mapping', technicianAuth, async (req, res) => {
             message: 'Error loading mapping page',
             error: error.message,
             appSettings: {
-                companyHeader: getSetting('company_header', 'GEMBOK'),
+                companyHeader: getSetting('company_header', 'NANCY.NET'),
                 footerInfo: getSetting('footer_info', 'Portal Teknisi')
             }
         });
@@ -1214,7 +1214,7 @@ router.get('/installations', technicianAuth, async (req, res) => {
             search,
             status,
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi')
             }
         });
@@ -1251,7 +1251,7 @@ router.get('/troubletickets', technicianAuth, async (req, res) => {
             reports,
             stats,
             appSettings: {
-                companyHeader: getSetting('company_header', 'GEMBOK'),
+                companyHeader: getSetting('company_header', 'NANCY.NET'),
                 footerInfo: getSetting('footer_info', 'Portal Teknisi'),
                 logoFilename: getSetting('logo_filename', 'logo.png'),
                 company_slogan: getSetting('company_slogan', ''),
@@ -1259,7 +1259,7 @@ router.get('/troubletickets', technicianAuth, async (req, res) => {
                 invoice_notes: getSetting('invoice_notes', '')
             },
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi')
             },
             // Add technician context to differentiate from admin
@@ -1308,7 +1308,7 @@ router.get('/troubletickets/detail/:id', technicianAuth, async (req, res) => {
             title: `Detail Laporan #${reportId} - Portal Teknisi`,
             report,
             appSettings: {
-                companyHeader: getSetting('company_header', 'GEMBOK'),
+                companyHeader: getSetting('company_header', 'NANCY.NET'),
                 footerInfo: getSetting('footer_info', 'Portal Teknisi'),
                 logoFilename: getSetting('logo_filename', 'logo.png'),
                 company_slogan: getSetting('company_slogan', ''),
@@ -1316,7 +1316,7 @@ router.get('/troubletickets/detail/:id', technicianAuth, async (req, res) => {
                 invoice_notes: getSetting('invoice_notes', '')
             },
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi')
             },
             // Add technician context to differentiate from admin
@@ -1407,7 +1407,7 @@ router.get('/payments', technicianAuth, async (req, res) => {
             },
             statusFilter: status,
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi')
             }
         });
@@ -2898,7 +2898,7 @@ router.get('/mobile/customers', technicianAuth, async (req, res) => {
                 hasPrev: currentPage > 1
             },
             settings: {
-                company_header: getSetting('company_header', 'GEMBOK'),
+                company_header: getSetting('company_header', 'NANCY.NET'),
                 footer_info: getSetting('footer_info', 'Portal Teknisi'),
                 logo_filename: getSetting('logo_filename', 'logo.png')
             },
@@ -3045,5 +3045,6 @@ router.post('/settings/update-password', technicianAuth, async (req, res) => {
         });
     }
 });
+
 
 module.exports = router;
