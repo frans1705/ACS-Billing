@@ -295,8 +295,8 @@ function getVersionInfo() {
         versionDate: settings.version_date || 'Unknown Date',
         versionNotes: settings.version_notes || 'No release notes',
         buildNumber: settings.build_number || 'Unknown Build',
-        companyHeader: settings.company_header || 'ALIJAYA DIGITAL NETWORK',
-        footerInfo: settings.footer_info || 'Info Hubungi : 081947215703'
+        companyHeader: settings.company_header || 'NANCY GLOBAL SOLUSI',
+        footerInfo: settings.footer_info || 'Info Hubungi : 081290717151'
     };
 }
 
@@ -358,4 +358,5 @@ module.exports = {
     getVersionInfo,
     getVersionMessage,
     getSystemInfoMessage
+
 }; 
